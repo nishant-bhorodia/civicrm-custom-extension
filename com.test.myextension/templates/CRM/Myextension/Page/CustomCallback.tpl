@@ -35,7 +35,7 @@
 
 <!-- End of Content Area -->
 
-<!--- Onpage Javascript --->
+<!--- Onpage Javascript -->
 {literal}
     <script>
 
