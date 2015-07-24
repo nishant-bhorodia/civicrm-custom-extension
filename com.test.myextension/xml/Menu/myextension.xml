@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+    <item>
+        <path>civicrm/custom-callback</path>
+        <page_callback>CRM_Myextension_Page_CustomCallback</page_callback>
+        <title>CustomCallback</title>
+        <access_arguments>access Custom Contribution Tab</access_arguments>
+    </item>
+    <item>
+        <path>civicrm/get-contri</path>
+        <page_callback>CRM_Myextension_Page_CustomCallback::getAllContributions</page_callback>
+        <title>CustomCallback</title>
+        <access_arguments>access Custom Contribution Tab</access_arguments>
+    </item>
+</menu>
