@@ -45,7 +45,7 @@
             CRM.api3('Contribution', 'get', {
                 "sequential": 1,
                 "return": "receive_date,net_amount",
-                "contact_id": 162
+                "contact_id": {/literal}{$cid}{literal}
             }).done(function (result) {
                 jsonObject = result.values;
                 $("#chart").html(createChart(jsonObject));
